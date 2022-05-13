@@ -1,4 +1,4 @@
-# INTRODUCTION
+# INTRODUCTION:
 Wiper is an essential component that is used to wipe moisture or any water from the windscreen. Wipers are designed and made to clear the water from a windscreen. Most cars have two wipers on the windscreen, one on the rear window and the other on each headlight. The wiper parts visible from outside the car are the rubber blade, the wiper arm holding the blade, a spring linkage, and parts of the wiper pivots. The wiper itself has about six parts called pressure points or claws that are small arms under the wiper
 
 The existing system uses a control stalk to activate the wiper and the process of pulling up the wiper is difficult.we needs to switch on and off the control stalk and it will reduce the driver’s concentration during the driving. Thus, this system is proposed to solve all these problems. The concept of this wiper system is similar to other conventional wipers, yet this system will be upgraded to an automatic control system by using a controller.When water hits a dedicated sensor located on the windscreen, it triggers the wiper motor to move. is not detected by sensor, the wiper will automatically stop. This will help the driver to give more concentration and reduce the car accident probability.
@@ -19,12 +19,12 @@ In this project, there were two innovations reviewed and this two were designed 
 * Rain sensor-based systems are extremely simple to install.
 * Individual rain sensors are fairly inexpensive.
 
-# Disadvantages:
+# DISADVANTAGES:
 * When water falls squarely on the rain sensor, the mechanism activates.
 * The entire system cost rises when more components, including a rain sensor, are required.
 * Rain sensors must make a decision within a few minutes to avoid erroneous detection of rain. 
 
-# 4W & H (WHO,WHAT,WHEN,WHERE,HOW)
+# 4W & H:
  * WHAT-The operational speed of a vehicle wiper is controlled by a wiper speed control mechanism based on rain conditions. To generate, the control system incorporates a rain sensor (30) that detects rain conditions. The amplitude of an analogue signal depends on the detected rain conditions.
  
 * WHY-To keep the windscreen clean enough to give adequate view at all times.
@@ -37,20 +37,20 @@ In this project, there were two innovations reviewed and this two were designed 
 
 * WHERE-In general, car wipers are controlled by the stalk on the right side of the steering wheel.
 
-# HIGH LEVEL REQUIREMENTS
+# HIGH LEVEL REQUIREMENTS:
 | ID | Description | Status |
 | ---|:------------|:-------|
 | HL1 | car wiper using STM32F407VG | Implemented |
 | HL2 | Led glowing in sequence| Implemented |
 | HL3 | Car on and off | Implemented |
 
-# LOW LEVEL REQUIREMENTS
+# LOW LEVEL REQUIREMENTS:
 | ID | Description | Status |
 | ---|:------------|:-------|
 | HL1-LL1 | Push Button | Implemented | 
 | HL2-LL2 | Red,Green,Blue Leds | Implemented |
 
-# SWOT ANALYSIS
+# SWOT ANALYSIS:
 
 1.STRENGTH
 * Low Budget
@@ -76,7 +76,7 @@ In this project, there were two innovations reviewed and this two were designed 
 * Ethical Pressure
 * Econimical Crisis
 
-# Exploring STM32F407 Discovery Board
+# Exploring STM32F407 Discovery Board:
  This project gives almost all the basic information needed to get started with STM32F407 Discovery Board and also development of driver code.
 
 * Hardware Used : STM32F4 DISCOVERY kit, for more information visit: STM32F4 DISCOVERY
@@ -84,7 +84,7 @@ In this project, there were two innovations reviewed and this two were designed 
 * For installation of STM32CubeIDE refer Youtube
 * Note : As this microcontroller has many advanced features and the main aim of this project is to get all basic insights, during the driver development only the required functionalities are added and other advanced functionality is not added. I may update the driver and other functionality in the future.
 
-# Overview of STM32F407VGT6 Microcontroller
+# Overview of STM32F407VGT6 Microcontroller:
 The STM32F407 Discovery board uses STM32F407VGT6 Microcontroller which has ARM Cortex-M4F Processor, which is capable of running upto 168Mhz. This MCU has many peripherals such as GPIO ports, TIMERS, ADCs, DACs, Flash Memory, SRAM, SPI, UART ect. The processor and peripherals talk via BUS-Interface. There are three busses available
 
 I-BUS (Instruction Bus)
